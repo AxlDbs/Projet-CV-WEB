@@ -90,12 +90,8 @@ header{
     
 }
 .textacolorer:hover{
-    color: yellow;
+    color: aqua;
 
-}
-
-.textacolorer{
-    transition-duration: 2s;
 }
 
 
@@ -260,8 +256,17 @@ a:link, a:active, a:visited{
         transition-duration: 1s;
 }
 .fa-linkedin-in:hover{
-        
-        color: #0B66C2;
+        opacity: 50%;
 }
+
+
+
+
+
+
+
+
+
+
 
 

@@ -2,8 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport"
-content="width=device-width,initial-scale=1.0,user-scalable=no">
     <title>Axel Dubois</title>
 
     <script
@@ -14,13 +12,11 @@ content="width=device-width,initial-scale=1.0,user-scalable=no">
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded+Outlined+round"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css" />
-    
 
     <script src="script.js">
 
-      
+      document.getElementById("menu_contact").style.border = "1 px white solid";
     </script>
   </head>
   <body>
@@ -30,14 +26,14 @@ content="width=device-width,initial-scale=1.0,user-scalable=no">
       </div>
 
       <div id="menu_contact">
-        <button id="button_contact"><i class="material-symbols-outlined">
-          android_dialer
-          </i>
-        </button>
-        
+        <button id="button_contact">Contact</button>
+        <div id="button_contact_child">
+          <p>dbsaxel@gmail.com</p>
+          <p>06 83 39 86 16</p>
+        </div>
       </div>
 
-      <div id="lien-link">
+      <div>
         <a
           href="https://www.linkedin.com/in/axel-dubois-53a736183/"
           target="blank"
@@ -186,7 +182,7 @@ content="width=device-width,initial-scale=1.0,user-scalable=no">
       <div class="nav_block" id="scolaire">
         <div class="text_block">
           <p class="text" id="text_scolaire">
-            <a href="#text_scolaire">Parcours scolaire</a>
+            <a href="#text_scolaire">Scolaire</a>
           </p>
         </div>
 
